@@ -40,6 +40,15 @@
   * Application should calculate how much the user would need to save and invest in order to have a "perpetual supply" of each product they purchase paid for by stock dividends.
 
 
+  ### Stretch Goals
+
+  * Implement a shopping cart for users that displays any items the user plans to purchase.
+  * Record how close a user is to their saving/investment goal for each product.
+  * Implement a customer dashboard that graphically displays users' progress toward their savings/investment goals for all items they have purchased.
+  * Simulate in-app purchasing (_i.e._, going beyond linking to where users can purchase the items on display).
+  * Simulate in-app savings/investment capacity (similar to apps like M1 Finance or Robinhood).
+
+
   9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
 
   10:40 AM Pacific: Building Logo in GIMP
