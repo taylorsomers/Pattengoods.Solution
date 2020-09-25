@@ -37,6 +37,16 @@
 
     1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
 
+
+## User Stories
+
+  * As a user, I want to see a list of products that have been added to the website.
+  * As a user, I want to be able to search for a product by name, manufacturer, or category.
+  * As a user, I want to be directed to where I can buy each product on offer.
+  * As a user, I want to be able to track how often I have bought any given product, on average.
+  * As a user, I want to see a calculation of how much I would need to save and invest in order to be able to pay for each item I buy using stock dividends (instead of my regular income).
+  * As a user, I want to be able to save and invest any amount of money toward an investment portfolio that will eventually provide the "lifelong supply" of a product I purchase at any time.
+
 ## Languages & Technologies Used:
 
   ### Programming Languages, Libraries, & Frameworks
