@@ -16,7 +16,7 @@
 
 ## Description
 
-  Pattengoods is an application build with C#/.NET using Entity Framework Core on an MVC pattern.
+  Pattengoods is an application build with C#/.NET using Entity Framework Core on an MVC pattern and connected with a MySQL database. The application functions as a combined storefront and financial technology resource, displaying a searchable set of household goods that may be purchased and recording how often the user purchases each good, on average. Based on the amount the user spends on any given product over time, as well as the risk-adjusted historical average return of a reliable index of dividends-paying stocks, the application calculates how much money the user would have to save and invest in that stock index in order to have a "perpetual supply" of the product, being able to use passive dividend income to cover the cost of the product rather than paying out of regular income. The goal is to provide users access to a selection of high-quality household goods and concretize the advantages of savings and investment, translating the often abstract and theoretical practices of saving and investing into real, necessary material resources. A user who, over time, uses the Pattengoods application to cover regularly purchases goods will gradually free up an increasing amount of disposable income in their budget, experiencing greater material abundance and security.
 
   ### What is a "Pattengood"?
   
