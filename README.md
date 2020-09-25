@@ -17,25 +17,25 @@
 
   ### What is a "Pattengood"?
   
-    "Pattengood" is a term I coined while thinking about this project idea. My working definition is as follows:
+  "Pattengood" is a term I coined while thinking about this project idea. My working definition is as follows:
 
-    Pattengood, n., A composite asset consisting of (1) an item of personal property and (2) a portfolio of dividend-paying stocks the income from which is specifically allocated toward replacing the item when it breaks or wears out.
+  Pattengood, n., A composite asset consisting of (1) an item of personal property and (2) a portfolio of dividend-paying stocks the income from which is specifically allocated toward replacing the item when it breaks or wears out.
 
-    Most of us don't realize it, but almost everything we own, insofar as we are committed to replacing it when it is no longer functional, is a financial liability; it represents an outflow of cash over the long term. A pattengood, on the other hand, is something we truly own. Since the item has its own delegated "replacement fund" at work, generating the income necessary to replace it when it has reached the end of its working life, it isn't the drag on our household finances that everyday goods can be. One inspiration for the pattengood is a category of life insurance that has an investment portfolio attached to it, the dividends from which pay the insurance premium so the policy holder doesn't have to pay the premium out of pocket.
+  Most of us don't realize it, but almost everything we own, insofar as we are committed to replacing it when it is no longer functional, is a financial liability; it represents an outflow of cash over the long term. A pattengood, on the other hand, is something we truly own. Since the item has its own delegated "replacement fund" at work, generating the income necessary to replace it when it has reached the end of its working life, it isn't the drag on our household finances that everyday goods can be. One inspiration for the pattengood is a category of life insurance that has an investment portfolio attached to it, the dividends from which pay the insurance premium so the policy holder doesn't have to pay the premium out of pocket.
 
-    The word "pattengood" comes from the relatively (and surprisingly) little-known economist Simon Patten. Though most people probably haven't heard of him, he was one of the most influential economic thinkers of the early 20th Century. Patten wrote on a multitude of topics, but some of his signature ideas were (1) that just as the health of soil is a function of the diversity of plant species growing in it, the health of an economy is a function of the diversity and interconnectedness of industry operating therein, (2) that in some cases higher prices for goods might themselves generate increased demand for those goods (he coined the phrase "conspicuous consumption" to describe this phenomenon), and (3) that economic development was pushing civilization toward a condition of material abundance wherein people would be defined more by their consumptive than their productive behavior, _i.e._, a "consumer society". 
+  The word "pattengood" comes from the relatively (and surprisingly) little-known economist Simon Patten. Though most people probably haven't heard of him, he was one of the most influential economic thinkers of the early 20th Century. Patten wrote on a multitude of topics, but some of his signature ideas were (1) that just as the health of soil is a function of the diversity of plant species growing in it, the health of an economy is a function of the diversity and interconnectedness of industry operating therein, (2) that in some cases higher prices for goods might themselves generate increased demand for those goods (he coined the phrase "conspicuous consumption" to describe this phenomenon), and (3) that economic development was pushing civilization toward a condition of material abundance wherein people would be defined more by their consumptive than their productive behavior, _i.e._, a "consumer society". 
 
-    9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
+  9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
 
-    10:40 AM Pacific: Building Logo in GIMP
+  10:40 AM Pacific: Building Logo in GIMP
 
-    10:56 AM Pacific: Complete first draft logo in GIMP
+  10:56 AM Pacific: Complete first draft logo in GIMP
 
-    11:55 AM Pacific: Attempting to fix non-functioning monitor
+  11:55 AM Pacific: Attempting to fix non-functioning monitor
 
-    1:23 PM Pacific: Set up project in Firebase.
+  1:23 PM Pacific: Set up project in Firebase.
 
-    1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
+  1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
 
 
 ## User Stories
@@ -50,22 +50,22 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages, Libraries, & Frameworks
-  * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  * [React](https://reactjs.org/)
+  * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+  * [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+  * [MySQL](https://www.mysql.com/)
+  * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 
   ### Operating Systems & Programs
   * [Brave](https://brave.com/)
-  * [Draw.io](https://app.diagrams.net/)
   * [Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/)
   * [Microsoft Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10)
+  * [MySql Workbench](https://www.mysql.com/products/workbench/)
   * [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## Requirements
   * [Git v2.62.2 or Later](https://git-scm.com/downloads/)
   * [MySql Workbench](https://www.mysql.com/products/workbench/)
-  * [Postman v7.30.1 or Later](https://www.postman.com/downloads/)
-  * [Visual Studio Code](https://code.visualstudio.com/)
   * [.NET Core v2.2 or Later](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 
 
