@@ -40,6 +40,16 @@
   * Application should calculate how much the user would need to save and invest in order to have a "perpetual supply" of each product they purchase paid for by stock dividends.
 
 
+  ### User Stories
+
+  * As a user, I want to see a list of products that have been added to the website.
+  * As a user, I want to be able to search for a product by name, manufacturer, or category.
+  * As a user, I want to be directed to where I can buy each product on offer.
+  * As a user, I want to be able to track how often I have bought any given product, on average.
+  * As a user, I want to see a calculation of how much I would need to save and invest in order to be able to pay for each item I buy using stock dividends (instead of my regular income).
+  * As a user, I want to be able to save and invest any amount of money toward an investment portfolio that will eventually provide the "lifelong supply" of a product I purchase at any time.
+
+
   ### Stretch Goals
 
   * Implement a shopping cart for users that displays any items the user plans to purchase.
@@ -61,16 +71,8 @@
 
   1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
 
+
 <hr>
-
-## User Stories
-
-  * As a user, I want to see a list of products that have been added to the website.
-  * As a user, I want to be able to search for a product by name, manufacturer, or category.
-  * As a user, I want to be directed to where I can buy each product on offer.
-  * As a user, I want to be able to track how often I have bought any given product, on average.
-  * As a user, I want to see a calculation of how much I would need to save and invest in order to be able to pay for each item I buy using stock dividends (instead of my regular income).
-  * As a user, I want to be able to save and invest any amount of money toward an investment portfolio that will eventually provide the "lifelong supply" of a product I purchase at any time.
 
 ## Languages & Technologies Used:
 
@@ -93,6 +95,7 @@
   * [MySql Workbench](https://www.mysql.com/products/workbench/)
   * [.NET Core v2.2 or Later](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 
+<hr>
 
 ## Installation
 
@@ -104,22 +107,26 @@
   5.  Enter the command ```$ npm run start``` in the terminal.
   5.  The program should open in a new tab in your default web browser.
 
+<hr>
 
 ## Known Bugs
 
   None at this time.
 
+<hr>
 
 ## Support & Contact Details
 
   * You are welcome to contact the [author](https://github.com/taylorsomers/) via GitHub with any concerns, feedback, possible contributions, questions, or suggestions.
 
+<hr>
 
 ### Contributors
 
   * [Taylor Somers](https://github.com/taylorsomers/)
 
+<hr>
 
 ### License
 
-  * This program is free to use under the [GNU Affero General Public License AGPLv3.0](https://www.gnu.org/licenses/agpl-3.0.html). <span><img height="12em" src="./public/AGPLv3Logo.png" alt="logo for the GNU Affero General Public License AGPLv3.0"></span> © 2020 Taylor Somers. All rights reserved.
+  * This program is free to use under the [GNU Affero General Public License AGPLv3.0](https://www.gnu.org/licenses/agpl-3.0.html). <span><img height="12em" src="./Pattengoods/wwwroot/img/AGPLv3Logo.png" alt="logo for the GNU Affero General Public License AGPLv3.0"></span> © 2020 Taylor Somers. All rights reserved.
