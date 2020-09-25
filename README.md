@@ -80,9 +80,9 @@
 
   1.  Make sure you have installed all <a href="#requirements">required software</a>.
   2.  Open your computer's terminal and navigate to the directory in which you would like the program to be stored.
-  3.  Enter the command ``` ``` in the terminal.
-  4.  Navigate to the ``` ``` directory in the terminal.
-  5.  Enter the command ```npm install``` in the terminal.
+  3.  Enter the command ```$ git clone https://github.com/taylorsomers/Pattengoods.Solution``` in the terminal.
+  4.  Navigate to the ```Pattengoods.Solution/pattengoods``` directory in the terminal.
+  5.  Enter the command ```$ npm install``` in the terminal.
   5.  Enter the command ```$ npm run start``` in the terminal.
   5.  The program should open in a new tab in your default web browser.
 
