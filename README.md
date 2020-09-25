@@ -16,7 +16,7 @@
 
 ## Description
 
-  Pattengoods is an application build with C#/.NET using Entity Framework Core on an MVC pattern and connected with a MySQL database. The application functions as a combined storefront and financial technology resource, displaying a searchable set of household goods that may be purchased and recording how often the user purchases each good, on average. Based on the amount the user spends on any given product over time, as well as the risk-adjusted historical average return of a reliable index of dividends-paying stocks, the application calculates how much money the user would have to save and invest in that stock index in order to have a "perpetual supply" of the product, being able to use passive dividend income to cover the cost of the product rather than paying out of regular income. The goal is to provide users access to a selection of high-quality household goods and concretize the advantages of savings and investment, translating the often abstract and theoretical practices of saving and investing into real, necessary material resources. A user who, over time, uses the Pattengoods application to cover regularly purchases goods will gradually free up an increasing amount of disposable income in their budget, experiencing greater material abundance and security.
+  Pattengoods is an application build with C#/.NET using Entity Framework Core on an MVC pattern and connected with a MySQL database that will, at least initially, be seeded with data for the goods on offer through the website. The application functions as a combined storefront and financial technology resource, displaying a searchable set of household goods that may be purchased and recording how often the user purchases each good, on average. Based on the amount the user spends on any given product over time, as well as the risk-adjusted historical average return of a reliable index of dividends-paying stocks, the application calculates how much money the user would have to save and invest in that stock index in order to have a "perpetual supply" of the product, being able to use passive dividend income to cover the cost of the product rather than paying out of regular income. The goal is to provide users access to a selection of high-quality household goods and concretize the advantages of savings and investment, translating the often abstract and theoretical practices of saving and investing into real, necessary material resources. A user who, over time, uses the Pattengoods application to cover regularly purchases goods will gradually free up an increasing amount of disposable income in their budget, experiencing greater material abundance and security.
 
   ### What is a "Pattengood"?
   
@@ -30,6 +30,15 @@
   ### Who Was Simon Patten?
 
   The word "pattengood" comes from the relatively (and surprisingly) little-known economist Simon Patten. Though most people probably haven't heard of him, he was one of the most influential economic thinkers of the early 20th Century. Patten wrote on a multitude of topics, but some of his signature ideas were (1) that just as the health of soil is a function of the diversity of plant species growing in it, the health of an economy is a function of the diversity and interconnectedness of industry operating therein, (2) that in some cases higher prices for goods might themselves generate increased demand for those goods (he coined the phrase "conspicuous consumption" to describe this phenomenon), and (3) that economic development was pushing civilization toward a condition of material abundance wherein people would be defined more by their consumptive than their productive behavior, _i.e._, a "consumer society". Patten's work was and is widely recognized as foundational to the Progressive Era of economic, political, and social reforms, as well as to the New Deal under President Franklin Delano Roosevelt. He remains one of the most intriguing expositors of the possibilities of material abundance, and I thought him a great inspiration for the way of living I'd like to suggest through my application.
+
+
+  ### Minimum Viable Product
+
+  * Application should display a set of household products users can purchase via external links.
+  * Application should include customer profiles.
+  * Customer profiles should record and display how often customers purchase those products they do purchase via the application.
+  * Application should calculate how much the user would need to save and invest in order to have a "perpetual supply" of each product they purchase paid for by stock dividends.
+
 
   9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
 
