@@ -12,6 +12,7 @@
   <a href="#license">License</a>
 </p>
 
+ <hr>
 
 ## Description
 
@@ -42,6 +43,7 @@
 
   1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
 
+<hr>
 
 ## User Stories
 
