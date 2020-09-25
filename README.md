@@ -2,7 +2,7 @@
 
   ### By [Taylor Somers](https://github.com/taylorsomers/)
 
-<img align="center" src="" alt="">
+<img align="center" src="./Pattengoods/wwwroot/img/pattengoods-logo.png" alt="Pattengoods logo featuring corcucopia, or 'horn of plenty'">
 
 <p align="center">
   <a href="#description">Description</a> •
@@ -15,6 +15,8 @@
 
 ## Description
 
+  Pattengoods is an application build with C#/.NET using Entity Framework Core on an MVC pattern.
+
   ### What is a "Pattengood"?
   
   "Pattengood" is a term I coined while thinking about this project idea. My working definition is as follows:
@@ -23,7 +25,10 @@
 
   Most of us don't realize it, but almost everything we own, insofar as we are committed to replacing it when it is no longer functional, is a financial liability; it represents an outflow of cash over the long term. A pattengood, on the other hand, is something we truly own. Since the item has its own delegated "replacement fund" at work, generating the income necessary to replace it when it has reached the end of its working life, it isn't the drag on our household finances that everyday goods can be. One inspiration for the pattengood is a category of life insurance that has an investment portfolio attached to it, the dividends from which pay the insurance premium so the policy holder doesn't have to pay the premium out of pocket.
 
-  The word "pattengood" comes from the relatively (and surprisingly) little-known economist Simon Patten. Though most people probably haven't heard of him, he was one of the most influential economic thinkers of the early 20th Century. Patten wrote on a multitude of topics, but some of his signature ideas were (1) that just as the health of soil is a function of the diversity of plant species growing in it, the health of an economy is a function of the diversity and interconnectedness of industry operating therein, (2) that in some cases higher prices for goods might themselves generate increased demand for those goods (he coined the phrase "conspicuous consumption" to describe this phenomenon), and (3) that economic development was pushing civilization toward a condition of material abundance wherein people would be defined more by their consumptive than their productive behavior, _i.e._, a "consumer society". 
+
+  ### Who Was Simon Patten?
+
+  The word "pattengood" comes from the relatively (and surprisingly) little-known economist Simon Patten. Though most people probably haven't heard of him, he was one of the most influential economic thinkers of the early 20th Century. Patten wrote on a multitude of topics, but some of his signature ideas were (1) that just as the health of soil is a function of the diversity of plant species growing in it, the health of an economy is a function of the diversity and interconnectedness of industry operating therein, (2) that in some cases higher prices for goods might themselves generate increased demand for those goods (he coined the phrase "conspicuous consumption" to describe this phenomenon), and (3) that economic development was pushing civilization toward a condition of material abundance wherein people would be defined more by their consumptive than their productive behavior, _i.e._, a "consumer society". Patten's work was and is widely recognized as foundational to the Progressive Era of economic, political, and social reforms, as well as to the New Deal under President Franklin Delano Roosevelt. He remains one of the most intriguing expositors of the possibilities of material abundance, and I thought him a great inspiration for the way of living I'd like to suggest through my application.
 
   9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
 
@@ -78,11 +83,6 @@
   5.  Enter the command ```npm install``` in the terminal.
   5.  Enter the command ```$ npm run start``` in the terminal.
   5.  The program should open in a new tab in your default web browser.
-
-
-## App Component Diagram
-
-<img src="./public/diagram.png" alt="diagram mapping nested components of the React app">
 
 
 ## Known Bugs
