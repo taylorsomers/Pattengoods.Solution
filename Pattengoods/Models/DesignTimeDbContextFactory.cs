@@ -13,8 +13,9 @@ namespace Pattengoods.Models
         .SetBasePath(Directory.GetCurrentDirectory())
         .AddJsonFile("appsettings.json")
         .Build();
-      
+
       var builder = new DbContextOptionsBuilder<PattengoodsContext>();
+
       var connectionString = configuration.GetConnectionString("DefaultConnection");
 
       builder.UseMySql(connectionString);
