@@ -15,6 +15,8 @@ namespace Pattengoods.Models
 
     public string ProductDescription { get; set; }
 
+    public string ProductLink { get; set; }
+
     public string ProductManufacturer { get; set; }
 
     public string ProductName { get; set; }
