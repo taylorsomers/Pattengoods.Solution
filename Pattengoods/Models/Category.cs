@@ -14,7 +14,7 @@ namespace Pattengoods.Models
 
     [Required(ErrorMessage = "Title is Required")]
     [StringLength(255)]
-    public string Title { get; set; }
+    public string CategoryTitle { get; set; }
 
     public virtual ICollection<CategoryProduct> Products { get; set; }
   }
