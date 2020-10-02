@@ -5,7 +5,7 @@ using System.IO;
 
 namespace Pattengoods.Models
 {
-  public class PattengoodsContextFactory : IDesignTimeDbContextFactory<PattengooodsContext>
+  public class PattengoodsContextFactory : IDesignTimeDbContextFactory<PattengoodsContext>
   {
     PattengoodsContext IDesignTimeDbContextFactory<PattengoodsContext>.CreateDbContext(string[] args)
     {
