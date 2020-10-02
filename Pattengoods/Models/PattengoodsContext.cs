@@ -27,6 +27,15 @@ namespace Pattengoods.Models
           }
         );
 
+      builder.Entity<CategoryProduct>()
+        .HasData(
+          new CategoryProduct {
+            CategoryProductId = 1,
+            CategoryId = 1,
+            ProductId = 1
+          }
+        );
+
       builder.Entity<Product>()
         .HasData(
           new Product {
