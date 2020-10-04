@@ -1,0 +1,26 @@
+@using (Html.BeginForm("LoginModal", "Account"))
+{
+  <div class="form-group">
+    <label for="userEmail">Email</label>
+    <input
+      type="text"
+      name="userEmail"
+      id="userEmail"
+      class="form-control"
+    />
+
+    <label for="userPassword">Password</label>
+    <input
+      type="text"
+      name="userEmail"
+      id="userEmail"
+      class="form-control"
+    />
+
+    <input
+      type="submit"
+      value="Login"
+      class="btn btn-info"
+    />
+  </div>
+}
