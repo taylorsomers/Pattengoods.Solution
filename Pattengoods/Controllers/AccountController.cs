@@ -35,7 +35,57 @@ namespace Pattengoods.Controllers
       return View();
     }
 
-    
+    [AllowAnonymous]
+    [HttpPost]
+    public async Task<ActionResult> Register(RegisterViewModel model)
+    {
+      User thisUser = new User {
+        UserName = model.Email,
+        FirstName = model.FirstName,
+        LastName = model.LastName
+      };
+
+      IdentityResult result = await _userManager.CreateAsync(
+        thisUser,
+        model.Password
+        
+      );
+
+      if (result.Succeeded)
+      {
+        return RedirectToAction("Index");
+      }
+      else
+      {
+        return View();
+      }
+    }
+
+    [AllowAnonymous]
+    [HttpPost]
+    public async Task<ActionResult> ModalRegister(string userEmail, string userPassword, string userConfirmPassword)
+    {
+      User thisUser = new User { UserName = userEmail };
+
+      if (userPassword == userConfirmPassword)
+      {
+        await _userManager.CreateAsync(
+          thisUser,
+          userPassword
+        );
+      }
+
+      return RedirectToAction(
+        "Index",
+        "Home"
+      );
+    }
+
+    [AllowAnonymous]
+    public ActionResult Login()
+    {
+      return View();
+    }
 
     public async Task<ActionResult> Index()
     {
