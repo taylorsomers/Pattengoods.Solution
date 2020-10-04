@@ -87,6 +87,52 @@ namespace Pattengoods.Controllers
       return View();
     }
 
+    [AllowAnonymous]
+    [HttpPost]
+    public async Task<ActionResult> Login(LoginViewModel model)
+    {
+      Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(
+        model.Email,
+        model.Password,
+        isPersistent: true,
+        lockoutOnFailure: false
+      );
+
+      if (result.Succeeded)
+      {
+        return RedirectToAction("Index");
+      }
+      else
+      {
+        return View();
+      }
+    }
+
+    [AllowAnonymous]
+    [HttpPost]
+    public async Task<ActionResult> LoginModal(string userEmail, string userPassword)
+    {
+      Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(
+        userEmail,
+        userPassword,
+        isPersistent: true,
+        lockoutOnFailure: false
+      );
+
+      return RedirectToAction(
+        "Index",
+        "Home"
+      );
+    }
+
+    [HttpPost]
+    public async Task<ActionResult> LogOff()
+    {
+      await _signInManager.SignOutAsync();
+
+      return RedirectToAction("Index");
+    }
+
     public async Task<ActionResult> Index()
     {
       var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
