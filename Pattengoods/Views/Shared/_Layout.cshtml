@@ -157,6 +157,53 @@
             </nav>
         </header>
 
+        <div
+            class="modal"
+            id="login-modal"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active">
+                                <a class="nav-link" data-toggle="tab" href="#login-modal-tab">Log In</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#register-modal-tab">Register</a>
+                            </li>
+                        </ul>
+
+                        <button
+                            type="button"
+                            class="close btn btn-warning"
+                            data-dismiss="modal"
+                        >&times;</button>
+                    </div>
+
+                    <div class="modal-body tab-content">
+                        <div
+                            id="login-modal-tab"
+                            class="tab-pane fade in active"
+                        >
+                            <h5>Login</h5>
+
+                            @Html.Partial("_Login")
+                        </div>
+
+                        <div
+                            id="register-modal-tab"
+                            class="tab-pane fade"
+                        >
+                            <h5>Register</h5>
+
+                            @Html.Partial("_Register")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @* Page Content *@
         <div class="container">
             <main
