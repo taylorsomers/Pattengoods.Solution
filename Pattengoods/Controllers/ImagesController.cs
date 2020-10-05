@@ -19,5 +19,37 @@ namespace Pattengoods.Controllers
     {
       _db = db;
     }
+
+    [HttpPost]
+    public IActionResult UploadImage(int ProductId)
+    {
+      Product thisProduct = _db.Products.FirstOrDefault(product => product.ProductId == ProductId);
+
+      foreach(var file in Request.Form.Files)
+      {
+        MemoryStream ms = new MemoryStream();
+
+        file.CopyTo(ms);
+
+        Image newImage = new Image() {
+          Img = ms.ToArray(),
+          ImgTitle = "FileName"
+        };
+
+        thisProduct.Images.Add(newImage);
+
+        ms.Close();
+
+        ms.Dispose();
+
+        _db.SaveChanges();
+      }
+
+      return RedirectToAction(
+        "Details",
+        "Products",
+        new { id = ProductId }
+      );
+    }
   }
 }
