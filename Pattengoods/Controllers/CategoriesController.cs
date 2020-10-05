@@ -18,6 +18,10 @@ namespace Pattengoods.Controllers
       _db = db;
     }
 
-    
+    public ActionResult Index()
+    {
+      List<Category> model = _db.Categories.ToList();
+      return View(model);
+    }
   }
 }
