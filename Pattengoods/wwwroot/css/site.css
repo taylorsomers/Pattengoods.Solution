@@ -60,6 +60,10 @@ body {
 
 /* Custom Styles */
 
+main {
+  margin-top: 7rem;
+}
+
 .navbar {
   background-color: #6699CC;
   font-size: 3rem;
