@@ -48,7 +48,6 @@ namespace Pattengoods.Controllers
       IdentityResult result = await _userManager.CreateAsync(
         thisUser,
         model.Password
-        
       );
 
       if (result.Succeeded)
