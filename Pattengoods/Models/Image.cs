@@ -10,7 +10,7 @@ namespace Pattengoods.Models
 
     public string ImgTitle { get; set; }
 
-    public Product Product { get; set; }
+    public Product ParentProduct { get; set; }
 
     public static string RetrieveImage(Image image)
     {
