@@ -62,30 +62,68 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            @* Navigation *@
+            <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light border-bottom box-shadow fixed-top mb-3">
+                <div class="container">
+                    <a
+                        class="navbar-brand"
+                        asp-area=""
+                        asp-controller="Home"
+                        asp-action="Index"
+                    >
                         <img
                             class="nav-logo"
                             src="~/img/pattengoods-logo.png"
                             alt="Pattengoods logo with cornucopia or horn of plenty"
                         >
                     </a>
+
                     <button
                         class="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
-                        data-target=".navbar-collapse"
-                        aria-controls="navbarSupportedContent"
+                        data-target="#navbarResponsive"
+                        aria-controls="navbarResponsive"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                        <ul class="navbar-nav flex-grow-1">
+
+                    <div
+                        class="collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse"
+                        id="navbarResponsive"
+                    >
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a
+                                    class="nav-link text-dark"
+                                    asp-area=""
+                                    asp-controller="Home"
+                                    asp-action="Index"
+                                >Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                >About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                >Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -93,7 +131,8 @@
             </nav>
         </header>
 
-        <div class="container-fluid">
+        @* Page Content *@
+        <div class="container">
             <main
                 role="main"
                 class="pb-3"
@@ -121,7 +160,7 @@
             ></script>
 
             <script
-                src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
                 asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
                 asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
                 crossorigin="anonymous"
