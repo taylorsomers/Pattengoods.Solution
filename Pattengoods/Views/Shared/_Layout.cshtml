@@ -1,5 +1,7 @@
 ﻿@using System.Security.Claims;
 
+@model Pattengoods.Models.UserProfile
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -101,8 +103,7 @@
                                     asp-area=""
                                     asp-controller="Home"
                                     asp-action="Index"
-                                >Home
-                                    <span class="sr-only">(current)</span>
+                                >Home<span class="sr-only">(current)</span>
                                 </a>
                             </li>
 
@@ -121,7 +122,7 @@
                                 <li class="nav-item">
                                     <a
                                         class="nav-link"
-                                        href="/userprofile/index"
+                                        href="/Account/Index"
                                     >Your Profile</a>
                                 </li>
 
