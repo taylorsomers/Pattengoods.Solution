@@ -13,6 +13,10 @@ namespace Pattengoods.Models
 
     public DbSet<Product> Products { get; set; }
 
+    public DbSet<PurchaseHistory> PurchaseHistories { get; set; }
+
+    public DbSet<UserProfile> UserProfiles { get; set; }
+
     public PattengoodsContext(DbContextOptions options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder builder)
