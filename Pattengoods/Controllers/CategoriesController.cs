@@ -28,8 +28,8 @@ namespace Pattengoods.Controllers
     {
       var thisCategory = _db.Categories
         .Include(category => category.Products)
-        .ThenInclude(join => join.Product)
-        .ThenInclude(product => product.Images)
+          .ThenInclude(join => join.Product)
+          .ThenInclude(product => product.Images)
         .FirstOrDefault(category => category.CategoryId == id);
       
       List<string> productNames = new List<string>();
@@ -55,6 +55,6 @@ namespace Pattengoods.Controllers
       return View(thisCategory);
     }
 
-    
+
   }
 }
