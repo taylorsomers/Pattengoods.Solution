@@ -45,6 +45,21 @@ namespace Pattengoods
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            // Identity configuration settings
+            services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<PattengoodsContext>()
+                .AddDefaultTokenProviders();
+            
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequiredLength = 0;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredUniqueChars = 0;
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
