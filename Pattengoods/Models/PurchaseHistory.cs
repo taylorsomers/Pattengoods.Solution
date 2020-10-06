@@ -11,6 +11,8 @@ namespace Pattengoods.Models
 
     public int Id { get; set; }
 
+    public int AmountPerPurchase { get; set; }
+
     public int ProductId { get; set; }
 
     public int UserProfileId { get; set; }
