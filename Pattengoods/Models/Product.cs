@@ -8,6 +8,7 @@ namespace Pattengoods.Models
     public Product()
     {
       this.Categories = new HashSet<CategoryProduct>();
+
       this.Images = new List<Image>();
     }
 
