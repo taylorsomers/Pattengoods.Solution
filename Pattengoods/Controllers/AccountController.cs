@@ -140,5 +140,10 @@ namespace Pattengoods.Controllers
 
       return View(currentUser);
     }
+
+    public ActionResult MockupProfileView()
+    {
+      return View();
+    }
   }
 }

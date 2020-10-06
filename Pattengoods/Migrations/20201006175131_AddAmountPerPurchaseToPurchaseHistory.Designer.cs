@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Pattengoods.Models;
 
 namespace Pattengoods.Migrations
 {
     [DbContext(typeof(PattengoodsContext))]
-    partial class PattengoodsContextModelSnapshot : ModelSnapshot
+    [Migration("20201006175131_AddAmountPerPurchaseToPurchaseHistory")]
+    partial class AddAmountPerPurchaseToPurchaseHistory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -196,8 +198,6 @@ namespace Pattengoods.Migrations
 
                     b.Property<string>("ProductDescription");
 
-                    b.Property<string>("ProductExpectedLife");
-
                     b.Property<string>("ProductLink");
 
                     b.Property<string>("ProductManufacturer");
@@ -229,15 +229,15 @@ namespace Pattengoods.Migrations
 
                     b.Property<int>("AmountPerPurchase");
 
-                    b.Property<int>("PerpetuityBalance");
-
                     b.Property<int>("ProductId");
 
                     b.Property<int>("UserProfileId");
 
+                    b.Property<string>("UserProfileId1");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("UserProfileId");
+                    b.HasIndex("UserProfileId1");
 
                     b.ToTable("PurchaseHistories");
                 });
@@ -251,6 +251,9 @@ namespace Pattengoods.Migrations
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired();
 
                     b.Property<string>("Email")
                         .HasMaxLength(256);
@@ -294,22 +297,17 @@ namespace Pattengoods.Migrations
                         .HasName("UserNameIndex");
 
                     b.ToTable("AspNetUsers");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
                 });
 
             modelBuilder.Entity("Pattengoods.Models.UserProfile", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("FirstName");
-
-                    b.Property<string>("LastName");
+                    b.HasBaseType("Pattengoods.Models.User");
 
                     b.Property<decimal>("PortfolioAmount");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("UserProfiles");
+                    b.HasDiscriminator().HasValue("UserProfile");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -381,8 +379,7 @@ namespace Pattengoods.Migrations
                 {
                     b.HasOne("Pattengoods.Models.UserProfile")
                         .WithMany("PurchaseHistories")
-                        .HasForeignKey("UserProfileId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("UserProfileId1");
                 });
 #pragma warning restore 612, 618
         }

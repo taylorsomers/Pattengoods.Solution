@@ -18,5 +18,9 @@ namespace Pattengoods.Models
     public int UserProfileId { get; set; }
 
     public List<string> PurchaseDates = new List<string>();
+
+    public int PerpetuityBalance { get; set; }
+
+    
   }
 }
