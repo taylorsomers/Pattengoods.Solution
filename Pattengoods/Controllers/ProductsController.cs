@@ -20,6 +20,24 @@ namespace Pattengoods.Controllers
       _db = db;
     }
 
-    
+    public ActionResult Details(int id)
+    {
+      var thisProduct = _db.Products
+        .Include(category => category.Categories)
+          .ThenInclude(join => join.Category)
+        .Include(product => product.Images)
+        .FirstOrDefault(product => product.ProductId == id);
+      
+      List<string> ImageData = new List<string>();
+
+      foreach (var image in thisProduct.Images)
+      {
+        ImageData.Add(Image.RetrieveImage(image));
+      }
+
+      ViewBag.ImageDataURL = ImageData;
+
+      return View(thisProduct);
+    }
   }
 }
