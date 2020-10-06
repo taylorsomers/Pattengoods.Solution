@@ -2,3 +2,15 @@
   Layout = "_Layout";
 }
 
+@using Pattengoods.Models;
+
+@model Pattengoods.Models.User
+
+@if (User.Identity.IsAuthenticated)
+{
+  <p>@Model.FirstName</p>
+}
+else
+{
+  <p>You are not signed in.</p>
+}
