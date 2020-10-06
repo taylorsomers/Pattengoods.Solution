@@ -4,7 +4,7 @@
 
 @using System.Security.Claims
 
-<h1>User Authentication</h1>
+<h1>Your Profile</h1>
 
 @if (User.Identity.IsAuthenticated)
 {
@@ -14,7 +14,7 @@
   {
     <input
       type="submit"
-      class="btn btn-info"
+      class="btn"
       value="Log Out"
     />
   }
@@ -23,7 +23,7 @@ else
 {
   <a
     href="/account/register"
-    class="btn btn-info"
+    class="btn"
   >Register an Account</a>
 
   <a
