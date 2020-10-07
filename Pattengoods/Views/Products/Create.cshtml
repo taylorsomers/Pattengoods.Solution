@@ -25,12 +25,12 @@
     @Html.LabelFor(model => model.ProductLink)
     @Html.TextBoxFor(model => model.ProductLink, new { @class="form-control" })
 
-    @Html.Label("Select Category:")
+    @* @Html.Label("Select Category:")
     @foreach (var name in ViewBag.CategoryId)
     {
       <label>@name.CategoryTitle</label>
       @Html.CheckBox("categoryId", false, new { @value=name.CategoryId })
-    }
+    } *@
   </div>
   <input type="submit" value="Create" class="btn btn-primary" />
 }

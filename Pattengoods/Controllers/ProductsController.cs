@@ -26,6 +26,18 @@ namespace Pattengoods.Controllers
       return View();
     }
 
+    [HttpPost]
+    public ActionResult Create(Product product, int[] CategoryId)
+    {
+      _db.Products.Add(product);
+      foreach(int id in CategoryId)
+      {
+        _db.CategoryProduct.Add(new CategoryProduct() {CategoryId = id, ProductId = product.ProductId });
+      }
+      _db.SaveChanges();
+      return View();
+    }
+
     public ActionResult Details(int id)
     {
       var thisProduct = _db.Products
