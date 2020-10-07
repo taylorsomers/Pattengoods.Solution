@@ -70,12 +70,20 @@ main {
 }
 
 .card {
-  border-radius: 1rem;
+  border-radius: 0.25rem;
 }
 
 .card-img-top {
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.col-lg-3 {
+  text-align: center;
+}
+
+.list-group {
+  text-align: left;
 }
 
 .navbar {
@@ -87,15 +95,20 @@ main {
   height: 5rem;
 }
 
+#index-container {
+  margin-top: 10rem;
+}
+
 #index-title {
   border: 0.1rem solid #007bff;
   border-radius: 0.25rem;
   color: #007bff;
+  padding-bottom: 0.5rem;
 }
 
 #page-container {
   background-color: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-bottom: 12rem;
   margin-top: 12rem;
 }
