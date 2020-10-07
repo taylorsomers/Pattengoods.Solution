@@ -69,9 +69,13 @@ main {
   margin-top: 7rem;
 }
 
+.card {
+  border-radius: 1rem;
+}
+
 .card-img-top {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .navbar {
@@ -81,6 +85,12 @@ main {
 
 .nav-logo {
   height: 5rem;
+}
+
+#index-title {
+  border: 0.1rem solid #007bff;
+  border-radius: 0.25rem;
+  color: #007bff;
 }
 
 #page-container {
