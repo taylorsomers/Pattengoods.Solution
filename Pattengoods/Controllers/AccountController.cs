@@ -145,5 +145,10 @@ namespace Pattengoods.Controllers
     {
       return View();
     }
+
+    public ActionResult MockupPortfolioView()
+    {
+      return View();
+    }
   }
 }
