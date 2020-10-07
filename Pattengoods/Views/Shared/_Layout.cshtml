@@ -50,6 +50,13 @@
 
         <link
             rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+            crossorigin="anonymous"
+        />
+
+        <link
+            rel="stylesheet"
             href="~/css/site.css"
         />
 
@@ -103,15 +110,32 @@
                         id="navbarResponsive"
                     >
                         <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                > About </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#"> Contact </a>
+                            </li>
+                            
                             <li class="nav-item active">
                                 <a
                                     class="nav-link text-dark"
                                     asp-area=""
                                     asp-controller="Home"
                                     asp-action="Index"
-                                >Home<span class="sr-only">(current)</span>
+                                ><span class="fas fa-home"></span><span class="sr-only">(current)</span>
                                 </a>
                             </li>
+
+                            
+
+                            
 
                             @if (!User.Identity.IsAuthenticated)
                             {
@@ -120,7 +144,7 @@
                                         class="nav-link"
                                         data-toggle="modal"
                                         data-target="#login-modal"
-                                    >Login</a>
+                                    > Login </a>
                                 </li>
                             }
                             else
@@ -129,35 +153,24 @@
                                     <a
                                         class="nav-link"
                                         href="/Account/MockupProfileView"
-                                    >Your Profile</a>
+                                    > <span class="fas fa-user"></span> </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <form
+                                    <a
                                         asp-controller="Account"
                                         asp-action="Logoff"
                                         method="post"
                                     >
-                                        <button
-                                            class="nav-link logout-button"
+                                        <a
+                                            class="nav-link"
                                             type="submit"
-                                        >Log Out</button>
-                                    </form>
+                                        ><span class="fas fa-sign-out-alt"></span></a>
+                                    </a>
+                                    
+
                                 </li>
                             }
-
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="#"
-                                >About</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="#">Contact</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -221,7 +234,7 @@
 
         <footer class="border-top footer text-muted">
             <div class="container">
-                &copy; 2020 - Pattengoods - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                &copy; 2020 - Pattengoods - <a asp-area="" asp-controller="Home" asp-action="Privacy"> Privacy </a>
             </div>
         </footer>
 
