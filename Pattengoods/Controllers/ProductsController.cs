@@ -20,6 +20,12 @@ namespace Pattengoods.Controllers
       _db = db;
     }
 
+    public ActionResult Create()
+    {
+      ViewBag.CategoryId = _db.Categories.ToList();
+      return View();
+    }
+
     public ActionResult Details(int id)
     {
       var thisProduct = _db.Products

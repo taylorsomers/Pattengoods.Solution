@@ -28,7 +28,7 @@
     @Html.Label("Select Category:")
     @foreach (var name in ViewBag.CategoryId)
     {
-      <label>@name.Title</label>
+      <label>@name.CategoryTitle</label>
       @Html.CheckBox("categoryId", false, new { @value=name.CategoryId })
     }
   </div>

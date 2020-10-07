@@ -45,7 +45,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: Georgia, Times, 'Times New Roman', serif;
   margin-bottom: 60px;
 }
 
@@ -108,7 +108,7 @@ main {
 
 #page-container {
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   margin-bottom: 12rem;
   margin-top: 12rem;
 }
