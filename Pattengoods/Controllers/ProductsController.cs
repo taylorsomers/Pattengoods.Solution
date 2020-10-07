@@ -57,5 +57,12 @@ namespace Pattengoods.Controllers
 
       return View(thisProduct);
     }
+
+    public ActionResult AddPhoto(int id)
+    {
+      Product thisProduct = _db.Products.FirstOrDefault(product => product.ProductId == id);
+
+      return View(thisProduct);
+    }
   }
 }
