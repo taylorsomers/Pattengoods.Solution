@@ -78,6 +78,12 @@ main {
   border-top-right-radius: 0.25rem;
 }
 
+.carousel-item {
+  color:  #007bff;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .col-lg-3 {
   text-align: center;
 }
@@ -97,6 +103,10 @@ main {
 
 .nav-logo {
   height: 5rem;
+}
+
+#carousel-card {
+  vertical-align: middle;
 }
 
 #index-container {
