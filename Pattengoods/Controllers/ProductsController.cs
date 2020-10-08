@@ -64,5 +64,10 @@ namespace Pattengoods.Controllers
 
       return View(thisProduct);
     }
+
+    public ActionResult DownComforterMockupView()
+    {
+      return View();
+    }
   }
 }

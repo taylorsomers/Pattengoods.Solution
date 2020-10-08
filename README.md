@@ -59,20 +59,8 @@
   * Simulate in-app savings/investment capacity (similar to apps like M1 Finance or Robinhood).
 
 
-  9:57 AM Pacific: Sent f/up email to IT Dept head at former employer to check on internship possibilities
-
-  10:40 AM Pacific: Building Logo in GIMP
-
-  10:56 AM Pacific: Complete first draft logo in GIMP
-
-  11:55 AM Pacific: Attempting to fix non-functioning monitor
-
-  1:23 PM Pacific: Set up project in Firebase.
-
-  1:57 PM Pacific: Attempt to research and weigh pros/cons of React/Firebase app vs C#/.NET/MVC or C#/.NET/React app
-
-
 <hr>
+
 
 ## Languages & Technologies Used:
 

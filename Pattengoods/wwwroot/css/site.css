@@ -133,3 +133,14 @@ main {
   margin-bottom: 12rem;
   margin-top: 12rem;
 }
+
+#product-detail-card {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#product-info-card {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
