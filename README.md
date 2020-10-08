@@ -39,10 +39,8 @@
 <img src="./Pattengoods/wwwroot/img/screenshots/splashpage.png" alt="website splash page">
 <p>Splash Page</p>
 
-<iframe src="https://giphy.com/embed/Nw8UGF5h1kZ043qElv" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<p><a href="https://giphy.com/gifs/Nw8UGF5h1kZ043qElv">via GIPHY</a></p>
-
 ![gif](https://media.giphy.com/media/Nw8UGF5h1kZ043qElv/giphy.gif)
+<p><a href="https://giphy.com/gifs/Nw8UGF5h1kZ043qElv">via GIPHY</a></p>
 
 <br>
 
