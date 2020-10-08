@@ -44,10 +44,15 @@
 
 <br>
 
-
 ![gif](https://media.giphy.com/media/dfVEICsd3Bxr0yg1hb/giphy.gif)
 <p><a href="https://giphy.com/gifs/Nw8UGF5h1kZ043qElv">via GIPHY</a></p>
 <p>Product details & purchase</p>
+
+<br>
+
+![gif](https://media.giphy.com/media/dfVEICsd3Bxr0yg1hb/giphy.gif)
+<p><a href="https://media.giphy.com/media/jrTY64SDxdaqKydMI0/giphy.gif">via GIPHY</a></p>
+<p>User profile & portfolio</p>
 
 
 ## Languages & Technologies Used:
