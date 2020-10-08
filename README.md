@@ -45,6 +45,9 @@
 <br>
 
 
+![gif](https://media.giphy.com/media/dfVEICsd3Bxr0yg1hb/giphy.gif)
+<p><a href="https://giphy.com/gifs/Nw8UGF5h1kZ043qElv">via GIPHY</a></p>
+<p>Product details & purchase</p>
 
 
 ## Languages & Technologies Used:
