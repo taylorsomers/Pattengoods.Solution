@@ -78,18 +78,22 @@ main {
   border-top-right-radius: 0.25rem;
 }
 
+.carousel-inner {
+  text-align: center !important;
+}
+
 .carousel-item {
+  background-size: cover;
   color:  #007bff;
-  text-align: center;
+  justify-content: center !important;
+  justify-items: center !important;
+  text-align: center !important;
   vertical-align: middle;
+  width: 100%;
 }
 
 .col-lg-3 {
   text-align: center;
-}
-
-.d-block {
-
 }
 
 .list-group {
@@ -106,7 +110,10 @@ main {
 }
 
 #carousel-card {
+  align-self: center;
+  justify-self: center;
   vertical-align: middle;
+  width: 100%;
 }
 
 #index-container {
